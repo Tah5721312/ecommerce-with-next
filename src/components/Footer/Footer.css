@@ -1,0 +1,22 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: var(--footer-bg);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  
+  padding: 1rem 0; /* تقليل المسافة الرأسية حول المحتوى */
+  color: white;
+  font-size: 17px;
+  z-index: 100; /* التأكد من أن الـ footer يظهر فوق المحتوى الآخر */
+
+  /* إزالة margin-top لأنه لا حاجة له في هذه الحالة */
+}
+
+footer span {
+  color: #ff7790;
+  text-transform: capitalize;
+}
